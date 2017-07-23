@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Swann</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Wojciech Stelmaszewski</authors>
+    <owners>Wojciech Stelmaszewski</owners>
+    <licenseUrl>https://github.com/wojciech-stelmaszewski/swann/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/wojciech-stelmaszewski/swann</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Smooth Wit AI .NET Ninja</description>
+    <releaseNotes>First release</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>wit ai nlp http </tags>
+  </metadata>
+</package>
