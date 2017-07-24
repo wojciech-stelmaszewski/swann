@@ -30,6 +30,11 @@ namespace Swann
 
         public async Task<WitResponse> SendMessageAsync(string message)
         {
+            if(message == null)
+            {
+                throw new ArgumentNullException(nameof(message));
+            }
+
             var response = await httpClient.GetAsync(GetUri(message));
 
             if(response.IsSuccessStatusCode)
